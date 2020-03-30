@@ -1,13 +1,19 @@
 import psycopg2
+from connection import user
+from connection import password
 import sqlalchemy as db
-engine = db.create_engine('postgresql://user:pass@localhost:5432')
+import pandas as pd
+connectionString = "postgresql://" + user + ":" + password + "@localhost:5432"
+print(connectionString)
+engine = db.create_engine(connectionString)
 connection = engine.connect()
 
-sql = connection.execute('select (first_name, last_name, hire_date) from "sql-challenge".employees where (extract(year from hire_date )) = 1986;')
+sql = ('select (first_name) from "sql-challenge".employees where (extract(year from hire_date )) = 1986;')
 for row in sql:
-        print(row[0])
+        print(type(row))
 
-
+df = pd.read_sql(sql, connection)
+print(df)
 '''
 inspector = db.inspect(engine)
 schemas = inspector.get_schema_names()
