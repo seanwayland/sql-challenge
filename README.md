@@ -2,9 +2,9 @@
 
 Analysis of Salary data at fictitious company "Pewlett Hackard" 
 
-![alt text]("https://github.com/seanwayland/sql-challenge/blob/master/sqlchallengedesign.pdf")
-![alt text]("https://github.com/seanwayland/sql-challenge/blob/master/salaryRangesPlot.png")
-![alt text]("https://github.com/seanwayland/sql-challenge/blob/master/Average_salary_by_position%20.png")
+![alt text](https://github.com/seanwayland/sql-challenge/blob/master/sqlchallengedesign.pdf)
+![alt text](https://github.com/seanwayland/sql-challenge/blob/master/salaryRangesPlot.png)
+![alt text](https://github.com/seanwayland/sql-challenge/blob/master/Average_salary_by_position%20.png)
 
 Data Modeling
 Inspect the CSVs and sketch out an ERD of the tables. Feel free to use a tool like http://www.quickdatabasediagrams.com.
