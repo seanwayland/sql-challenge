@@ -2,9 +2,9 @@
 
 Analysis of Salary data at fictitious company "Pewlett Hackard" 
 
-Creation of tables is in sqlchallengeschemasunday.sql
-queries of the data are in sqlchallengedataqueries.py
-data analysis with pandas is in sqlchallenge.py
+Creation of tables is in sqlchallengeschemasunday.sql <br/>
+queries of the data are in sqlchallengedataqueries.py <br/>
+data analysis with pandas is in sqlchallenge.py <br/> <br/>
 
 
 ![alt text](https://github.com/seanwayland/sql-challenge/blob/master/employeeSQL/salaryRangesPlot.png)
